@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+.backg{
+   		/*background-color: #e6fff2;*/
+   	background-image: url('../images/_MG_6173.jpg');
+  	background-position: 85% 45%;
+}

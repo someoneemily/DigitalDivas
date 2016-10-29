@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>W3.CSS</title>
+ <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
@@ -14,6 +16,7 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
 <body>
 	<!-- Side Navigation -->
 	<!-- <nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none" id="mySidenav">
@@ -28,11 +31,11 @@
 
 	<!-- Header -->
   <style>
-    .backg{
-   		background-color: #e6fff2;
+    /*.backg{
+   		/*background-color: #e6fff2;
    		background-image: url("P1020548.JPG");
     	background-position: 85% 45%;
-    }
+    }*/
     .backg-overlay{
       background: rgba(230, 255, 242, 0.67);
     }
@@ -62,7 +65,7 @@
 	<!-- Modal -->
 	<div id="id01" class="w3-modal">
 	    <div class="w3-modal-content  w3-card-8 w3-animate-top">
-	      <header class="w3-container backg ">
+	      <header class="w3-container backg-overlay ">
 	        <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn">x</span>
 	        <h4>Digital Divas Information</h4>
 	      </header>
@@ -76,7 +79,7 @@
           <p>You can look forward to workshops, guest speakers, food, and an awesome experience in programming!!</p>
           <p><a class="w3-btn" href="https://megansmith.typeform.com/to/yquwty">Sign up!</a></p>
 	      </div>
-	      <footer class="w3-container backg ">
+	      <footer class="w3-container backg-overlay ">
 	        <p>Thanks for your interest! We are so excited to be hosting DigitalDivas this year and hope to see you there!</p>
 	      </footer>
 	    </div>
@@ -122,6 +125,10 @@
         <p>Location: </p><p>Richardson High School</p>
         <p>1250 West Belt Line Road, Richardson, TX 75080</p>
         <p><a class="w3-btn" href="https://megansmith.typeform.com/to/yquwty">Sign up!</a></p>
+        <a style="font-size:15px" href="http://bit.ly/2eW7H7V" download="MediaReleaseForm_English"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Media Release Form(English)</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="font-size:15px" href="http://bit.ly/2e5Rlua" download="MediaReleaseForm_Spanish"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Media Release Form(Spanish)</a>
+
       </div>
     </div>
    </div>
